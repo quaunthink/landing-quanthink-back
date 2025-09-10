@@ -1,0 +1,8 @@
+Flask
+python-dotenv
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Cors
+psycopg2-binary  # Driver para PostgreSQL
+PyJWT          # Para tokens de autenticación
+requests       # Para consumir APIs externas (timbrado)
