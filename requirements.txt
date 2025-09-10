@@ -6,3 +6,4 @@ Flask-Cors
 psycopg2-binary  # Driver para PostgreSQL
 PyJWT          # Para tokens de autenticación
 requests       # Para consumir APIs externas (timbrado)
+gunicorn==23.0.0
