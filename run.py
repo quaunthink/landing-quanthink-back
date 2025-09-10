@@ -27,3 +27,7 @@ def seed_db():
 
     db.session.commit()
     print("¡Datos de prueba añadidos!")
+
+@app.route("/")
+def index():
+    return {"status": "ok", "message": "Backend activo 🚀"}
