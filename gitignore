@@ -1,12 +1,44 @@
 # Python
-venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+*.log
 
-# Env
+# Virtual environments
 .env
-.flaskenv
-instance/
+.venv
+env/
+venv/
+ENV/
 
-# OS
+# IDE / OS
 .DS_Store
+.vscode/
+.idea/
+
+# Byte-compiled / optimized
+*.pyc
+*.pyo
+*.pyd
+
+# Flask / Instance
+instance/
+*.db
+*.sqlite3
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / Packaging
+dist/
+build/
+.eggs/
+
+# Local configs
+*.env
